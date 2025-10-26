@@ -127,7 +127,7 @@ p{
 }
 
 
-/* responsiv eness */
+/* responsive_ness */
 @media (max-width: 768px) {
   .register {
     width: 90%;
@@ -147,7 +147,6 @@ p{
   }
 }
 
-/* For mobile screens (width below 480px) */
 @media (max-width: 480px) {
   .register {
     width: 90%;
@@ -182,7 +181,6 @@ p{
   }
 }
 
-/* For very small devices (below 360px) */
 @media (max-width: 360px) {
   .registerbtn {
     margin-left: 28%;
