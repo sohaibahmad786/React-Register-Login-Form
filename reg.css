@@ -1,0 +1,195 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.heading{
+    text-align: center;
+}
+.register{
+    background-color: blue;
+    color: white;
+    height: 470px;
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px black;
+}
+.register input{
+    margin-left: 0px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.first p{
+    font-size: 20px;
+}
+.first{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+p{
+    font-size: 17px;
+}
+.registerbtn{
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.registerbtn button{
+    padding: 8px;
+    width: 90px;
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.registerbtn button:active{
+    background-color: blue;
+    color: white;
+}
+
+/* responsiveness */
+@media (max-width: 768px) {
+  .register {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .register input {
+    width: 90%;
+  }
+
+  .first {
+    margin-left: 20px;
+  }
+
+  .registerbtn {
+    margin-left: 35%;
+  }
+}
+
+/* For mobile screens (width below 480px) */
+@media (max-width: 480px) {
+  .register {
+    width: 90%;
+    padding: 15px 0;
+  }
+
+  .heading h1 {
+    font-size: 24px;
+  }
+
+  .register input {
+    width: 85%;
+    font-size: 15px;
+  }
+
+  .first {
+    margin-left: 25px;
+  }
+
+  .first p {
+    font-size: 16px;
+  }
+
+  .registerbtn {
+    margin-left: 32%;
+    margin-top: 25px;
+  }
+
+  .registerbtn button {
+    width: 100px;
+    font-size: 15px;
+  }
+}
+
+/* For very small devices (below 360px) */
+@media (max-width: 360px) {
+  .registerbtn {
+    margin-left: 28%;
+  }
+
+  .registerbtn button {
+    width: 90px;
+    font-size: 14px;
+  }
+}
+
+
+/* responsiv eness */
+@media (max-width: 768px) {
+  .register {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .register input {
+    width: 90%;
+  }
+
+  .first {
+    margin-left: 20px;
+  }
+
+  .registerbtn {
+    margin-left: 35%;
+  }
+}
+
+/* For mobile screens (width below 480px) */
+@media (max-width: 480px) {
+  .register {
+    width: 90%;
+    padding: 15px 0;
+  }
+
+  .heading h1 {
+    font-size: 24px;
+  }
+
+  .register input {
+    width: 85%;
+    font-size: 15px;
+  }
+
+  .first {
+    margin-left: 25px;
+  }
+
+  .first p {
+    font-size: 16px;
+  }
+
+  .registerbtn {
+    margin-left: 32%;
+    margin-top: 25px;
+  }
+
+  .registerbtn button {
+    width: 100px;
+    font-size: 15px;
+  }
+}
+
+/* For very small devices (below 360px) */
+@media (max-width: 360px) {
+  .registerbtn {
+    margin-left: 28%;
+  }
+
+  .registerbtn button {
+    width: 90px;
+    font-size: 14px;
+  }
+}

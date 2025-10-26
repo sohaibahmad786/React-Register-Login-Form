@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.login{
+    background-color: blue;
+    color: white;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px white;
+}
+.login input{
+     margin-left: 0px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.third{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+p{
+    font-size: 20px;
+}
+.top{
+    margin-top: 10px;
+}
+.head{
+    text-align: center;
+    margin-top: 10px;
+}
+.loginbtnn button{
+      padding: 8px;
+    width: 70px;
+    background-color: white;
+    color: blue;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.loginbtnn{
+    text-align: center;
+    margin-top: 30px;
+}
+.loginbtnn button:active{
+    background-color: blue;
+    color: white;
+}
+
+/* Responsive ness */
+@media (max-width: 768px) {
+  .login {
+    width: 90%;
+    padding: 20px 10px;
+  }
+
+  .login input {
+    width: 90%;
+  }
+
+  .third {
+    margin-left: 20px;
+  }
+}
+
+/* For mobile screens (below 480px) */
+@media (max-width: 480px) {
+  .login {
+    width: 90%;
+    padding: 15px 0;
+  }
+
+  .head h1 {
+    font-size: 24px;
+  }
+
+  .login input {
+    width: 85%;
+    font-size: 15px;
+  }
+
+  .third {
+    margin-left: 25px;
+  }
+
+  .third p {
+    font-size: 16px;
+  }
+
+  .loginbtnn button {
+    width: 100px;
+    font-size: 15px;
+  }
+}
+
+/* For very small devices (below 360px) */
+@media (max-width: 360px) {
+  .loginbtnn button {
+    width: 90px;
+    font-size: 14px;
+  }
+}
